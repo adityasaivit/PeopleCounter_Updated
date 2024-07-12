@@ -1,0 +1,121 @@
+.logo
+{
+    width:20px;
+}
+header{
+    display:flex;
+    justify-content:space-around;
+    background-color:seagreen;
+    border-radius:20px;
+    font-size:18px;
+    color:white;
+    font-weight:bold;
+}
+.title{
+    display:flex;
+    align-items:center;
+}
+.name
+{
+    flex-grow:1;
+    width:0px;
+    margin-left:10px;
+}
+.title{
+    flex-grow:1.2;
+    width:0px;
+}
+
+.container
+{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    height:50%;
+    margin-top:10rem;
+}
+.button-group{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    height:100%;
+}
+.count
+{
+    font-size:100px;
+    color:green;
+}
+.button
+{
+    width:20rem;
+    padding:30px;
+    margin:10px;
+}
+
+.increment
+{
+    background-color:seagreen;
+    border:none;
+    border-radius:20px;
+}
+.increment:hover
+{
+    background-color:rgba(26, 101, 59, 0.941);
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+.increment:active
+{
+    background-color:seagreen;
+    border:none;
+    border-radius:20px;
+}
+.reset
+{
+    background-color:rgb(234, 97, 97);
+    border:none;
+    border-radius:20px;
+}
+.reset:hover
+{
+    background-color:rgba(101, 40, 26, 0.941);
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+.reset:active
+{
+    background-color:rgb(234, 97, 97);
+    border:none;
+    border-radius:20px;
+}
+.save
+{
+    background-color:orange;
+    border:none;
+    border-radius:20px;
+}
+.save:hover
+{
+    background-color:rgb(185, 123, 8);
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+.save:active
+{
+    background-color:orange;
+    border:none;
+    border-radius:20px;
+}
+.container{
+    box-shadow:0px 0px 10px lightseagreen;
+    width:70%;
+    height:70%;
+}
+.outer{
+    display:flex;
+    justify-content:center;
+}
+
