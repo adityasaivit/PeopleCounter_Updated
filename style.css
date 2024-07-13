@@ -119,3 +119,13 @@ header{
     justify-content:center;
 }
 
+.history{
+    display:flex;
+    justify-content:center;
+    border:none;
+    box-shadow:0px 0px 10px grey;
+   margin-top:20px;
+   font-size:20px;
+   color:seagreen;
+   padding:10px;
+}
